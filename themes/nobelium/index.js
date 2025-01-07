@@ -56,7 +56,7 @@ const LayoutBase = props => {
       value={{ searchModal, filterKey, setFilterKey }}>
       <div
         id='theme-nobelium'
-        className={`${siteConfig('FONT_STYLE')} nobelium relative dark:text-gray-300  w-full  bg-white dark:bg-black min-h-screen flex flex-col scroll-smooth`}>
+        className={`${siteConfig('FONT_STYLE')} nobelium relative dark:text-gray-300  w-full   min-h-screen flex flex-col scroll-smooth`}> //去除bg-white dark:bg-black 让背景可以着色
         <Style />
 
         {/* 顶部导航栏 */}

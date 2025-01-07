@@ -8,7 +8,7 @@ const Style = () => {
   return <style jsx global>{`
     
     // 底色
-    .dark body{
+    .dark html body{           // html 标签是body的父标签，通过这种方式，保证了 .dark 这个类名的生效范围
         background-color: black;
     }
 
